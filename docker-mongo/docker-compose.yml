@@ -4,7 +4,7 @@ coreline-mongodb-template:
       MONGO_INITDB_ROOT_PASSWORD: password
       MONGO_INITDB_ROOT_USERNAME: user
     hostname: mongodb-server
-    container_name="coreline-mongodb-template"
+    container_name: "coreline-mongodb-template"
     image: mongo
     ports:
       - "27017:27017"
